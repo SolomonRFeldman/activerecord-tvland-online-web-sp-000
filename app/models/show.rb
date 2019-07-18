@@ -6,4 +6,8 @@ class Show < ActiveRecord::Base
     self.characters.collect { |character| character.actor.full_name }
   end
   
+  def build_network
+    
+  end
+  
 end
